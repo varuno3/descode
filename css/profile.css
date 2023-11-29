@@ -1,0 +1,71 @@
+#profile {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#profile-pankaj, #profile-varun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 400px;
+}
+#dp-pankaj, #dp-varun {   
+    width: 400px;
+    
+}
+#dpp, #dpv {
+ width: 100%;
+ border-radius: 8px;
+}
+#about-pankaj, #about-varun {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#name-p, #name-v{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    line-height: 90px;
+}
+#about-p, #about-v {
+    max-width: 500px;
+    min-width: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+span {
+    font-weight: bold;
+    font-size: larger;
+}
+.button-linkedin {
+    width: 300px;
+    height: 40px;
+    font-family: 'Tilt Warp', cursive;
+    font-size: large;
+    color: blanchedalmond;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    border-width: 0;
+    transition: 0.2s;
+}
+.button-linkedin:hover {
+    width: 290px;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+.button-linkedin:active {
+    color: black;
+    background-color: white;
+}
+#profile-varun {
+    padding-top: 200px;
+}
